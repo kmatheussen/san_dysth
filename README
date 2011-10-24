@@ -1,0 +1,46 @@
+
+San Dysth V0.1.1
+Released 3.10.2006
+
+Kjetil S. Matheussen, k.s.matheussen@notam02.no
+
+
+ABOUT
+-----
+San Dysth is a standalone realtime soft-synth written in SND.
+
+It was first developed as final project for the 220c course at CCRMA.
+
+For information about the used synthesizing routine and sound examples,
+check out San Dysths homepage at:
+
+http://www.notam02.no/~kjetism/sandysth/
+
+
+INSTALLING
+----------
+First edit the two first variables in the top of the Makefile and then write "make install"
+
+
+REQUIREMENTS
+------------
+Snd-ls >=0.9.7.1
+G2Reverb ladspa plugin.
+
+
+CHANGES
+-------
+-> 0.1.1:
+* Fixed loading/saving dialog.
+
+-> 0.1.0:
+* First official release.
+
+
+ACKNOWLEDGEMENT
+---------------
+San Dysth uses Bill Schottstaedt's sound synthesis package CLM running inside SND.
+San Dysth also uses Fons Adriansen's g2reverb ladspa plugin for the reverb, which is based
+on the gverb ladspa plugin made by Juhana Sadeharju.
+
+
